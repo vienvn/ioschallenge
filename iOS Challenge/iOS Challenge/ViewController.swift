@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     
     tableView.delegate = self
     tableView.dataSource = self
+    tableView.rowHeight = UITableViewAutomaticDimension
+    tableView.estimatedRowHeight = 88.0
     
     Service.sharedInstance.getUpcomingGuides { (data) in
       self.data = self.groupUpcoming(data)
