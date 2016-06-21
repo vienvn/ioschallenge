@@ -15,6 +15,7 @@
 		6A9ABAD61D191E9400C5B739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9ABAD41D191E9400C5B739 /* LaunchScreen.storyboard */; };
 		6A9ABADE1D1920D900C5B739 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ABADD1D1920D900C5B739 /* Service.swift */; };
 		6A9ABAE01D19218400C5B739 /* UpcomingGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ABADF1D19218400C5B739 /* UpcomingGuide.swift */; };
+		6A9ABAE21D1937AE00C5B739 /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9ABAE11D1937AE00C5B739 /* UpcomingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		6A9ABAD71D191E9400C5B739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A9ABADD1D1920D900C5B739 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		6A9ABADF1D19218400C5B739 /* UpcomingGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingGuide.swift; sourceTree = "<group>"; };
+		6A9ABAE11D1937AE00C5B739 /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
 		BAA305522081B9B8E10A9F86 /* Pods-iOS Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Challenge/Pods-iOS Challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				6A9ABAD71D191E9400C5B739 /* Info.plist */,
 				6A9ABADD1D1920D900C5B739 /* Service.swift */,
 				6A9ABADF1D19218400C5B739 /* UpcomingGuide.swift */,
+				6A9ABAE11D1937AE00C5B739 /* UpcomingTableViewCell.swift */,
 			);
 			path = "iOS Challenge";
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				6A9ABACE1D191E9300C5B739 /* ViewController.swift in Sources */,
 				6A9ABACC1D191E9300C5B739 /* AppDelegate.swift in Sources */,
+				6A9ABAE21D1937AE00C5B739 /* UpcomingTableViewCell.swift in Sources */,
 				6A9ABAE01D19218400C5B739 /* UpcomingGuide.swift in Sources */,
 				6A9ABADE1D1920D900C5B739 /* Service.swift in Sources */,
 			);
